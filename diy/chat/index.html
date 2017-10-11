@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CHAT</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="st.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- CONTAINER -->
+        <div class="middle-container container">
+            <div id="chat-container" class="profile block" style="z-index: 1;">
+                <!-- PROFILE (MIDDLE-CONTAINER) -->
+                <h1>Chat</h1>
+                <div id="chat">
+
+                </div>
+
+                <div id="chat-actions" class="horizontal">
+                    <input id="msg" type="text" onkeypress="onkey(event)">
+                    <button onclick="send()" class="button">Enviar</button>
+                    <button class="button" onclick="quit()">Sair</button>
+                    <button class="button" onclick="reconnect()">Reconectar</button>
+                </div>
+                <ul class="profile-options horizontal-list">
+                    <li id="chat-chat">
+                        <a class="comments" href="#40">
+                            <p><span class="icon fontawesome-comment-alt scnd-font-color"></span>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end main-container -->
+<div style="display:none">
+    <div id="ref-php-gerar"></div>
+    <div id="ref-php-cli"></div>
+    <div id="ref-slide-php-websockets">
+        <div class="ref">
+            <span class="profile-description">
+                            <a href="http://www.phpbuilder.com/articles/application-architecture/optimization/creating-real-time-applications-with-php-and-websockets.html" class="scnd-font-color"> Exemplo usado na palestra </a>
+                      </span>
+            <div style="clear:both;float: none;width: 100px;height: 10px;"></div>
+        </div>
+        <div class="ref">
+            <span class="profile-description">
+                            <a href="http://phptrends.com/category/70-websockets" class="scnd-font-color"> Bibliotecas WebSockets </a>
+                      </span>
+            <div style="clear:both;float: none;width: 100px;height: 10px;"></div>
+        </div>
+
+    </div>
+    <div id="ref-slide-php-pp">
+        <div class="ref">
+            <span class="profile-description">
+                            <p class="scnd-font-color">[Livro] Padrões de Projeto: soluções reutilizáveis de software orientado a objetos </p>
+                      </span>
+            <div style="clear:both;float: none;width: 100px;height: 10px;"></div>
+        </div>
+        <div class="ref">
+            <span class="profile-description">
+                            <p class="scnd-font-color"> [Livro] Aprendendo Padrões de Projeto em PHP </p>
+                      </span>
+            <div style="clear:both;float: none;width: 100px;height: 10px;"></div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
