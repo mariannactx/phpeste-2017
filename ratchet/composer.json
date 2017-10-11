@@ -1,0 +1,19 @@
+{
+    "name": "Ratchet PHPeste",
+    "description": "Aplicação de exemplo para o PHPeste",
+    "authors": [
+        {
+            "name": "Marianna",
+            "email": "mariannactx@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src"
+        }
+    },
+    "require": {
+        "cboden/ratchet": "^0.4"
+    }
+}
+
